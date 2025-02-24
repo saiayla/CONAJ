@@ -1,0 +1,190 @@
+﻿header {
+    font-family:'Arial', Times, serif;
+}
+
+nav {
+    position: sticky;
+    margin-bottom: 10px;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+}
+
+p {
+    text-align: justify;
+}
+
+.bg-blue {
+    background-color: rgba(16, 75, 120, 0.667);
+}
+
+.bg-grey {
+    background-color: rgba(244, 244, 244, 1);
+}
+
+.imagens {
+    width: 40%
+}
+
+.historia {
+    width: 60%;
+}
+
+.div-img img {
+    min-width: 200px !important;
+}
+
+.div-img {
+    width: 250px;
+}
+
+.hover:hover {
+    text-decoration: underline !important;
+}
+
+@-webkit-media ((min-width: 300px) and ( max-width: 400px)) {
+    #Vitoria > section > div {
+        flex-direction: column !important;
+    }
+
+    #Vitoria > section > div img {
+        width: 50% !important;
+    }
+
+    body > main > section:nth-child(9) > div > div.d-flex.gap-4 > div.d-flex.flex-column.gap-3.imagens > span  {
+        font-size: 10px !important;
+        line-height: 12px !important;
+    }
+
+    body > main > section.bg-blue.mt-3.p-3.d-flex.align-items-center.justify-content-center {
+        padding: 0.5rem !important;
+        flex-direction: column !important;
+    }
+
+}
+
+@-webkit-media ((min-width: 300px) and ( max-width: 450px)) {
+    .link {
+        width: 100% !important;
+        flex-direction: column !important;
+    }
+
+    body > header > section > div > div,
+    body > header > section > div {
+        width: 100% !important;
+    }
+}
+
+@-webkit-media ((min-width: 300px) and ( max-width: 760px)) {
+
+    #Hospedagem > h1 {
+        text-align: center !important;
+    }
+
+    figcaption {
+        font-size: 10px !important;
+        line-height: 12px !important;
+    }
+
+    .link a,
+    #Inscricoes > div > a,
+    body > main > section:nth-child(9) > div > div.d-flex.gap-4 > div.d-flex.flex-column.gap-3.imagens > span  {
+        font-size: 12px !important;
+        line-height: 15px !important;
+    }
+
+    p,
+    ul li {
+        font-size: 12px !important;
+    }
+
+    h3 {
+        font-size: 16px !important;
+    }
+
+    .data{
+        font-size: 12px !important;
+        text-align: center;
+    }
+
+    .link {
+        width: 100% !important;
+    }
+
+    #FENAJU > div,
+    #Vitoria > div,
+    #Palavra  div,
+    section:nth-child(5)  div{
+        flex-direction: column !important;
+    }
+
+    #FENAJU > div div,
+    #Vitoria > div div,
+    #FENAJU > div > div:nth-child(2),
+    #Palavra  div,
+    section:nth-child(5)  div {
+        width: 100% !important;
+    }
+
+    #FENAJU > div > div:nth-child(2) {
+        align-self: center;
+    }
+
+    #mt {
+        padding: 0 !important;
+    }
+
+    section:nth-child(5) {
+        margin: 0 !important;
+    } 
+
+    .div-img {
+        align-self: center !important;
+    }
+
+    h2 {
+        text-align: center !important;
+    }
+}
+
+@-webkit-media ((min-width: 300px) and ( max-width: 990px)) {
+    iframe {
+        width: 100% !important;
+    }
+}
+
+@media ((min-width: 300px) and ( max-width: 700px)) {
+    .hoteis {
+        flex-direction: column !important;
+    }
+}
+
+@-webkit-media ((min-width: 760px) and ( max-width: 1602px)) {
+    .link div a,
+    #Inscricoes > div > a  {
+        font-size: 15px !important;
+    }
+}
+
+@-webkit-media ((min-width: 300px) and ( max-width: 1080px)) {
+    #FENAJU > div,
+    #Vitoria > div,
+    #Palavra  div,
+    section:nth-child(5)  div {
+        flex-direction: column !important;
+    }
+
+    #FENAJU > div div,
+    #Vitoria > div div,
+    #FENAJU > div > div:nth-child(2),
+    #Palavra  div,
+    section:nth-child(5)  div,
+    body > main > section:nth-child(9) > div > div.d-flex.flex-column.gap-2.mb-4.w-75,
+    body > main > section.bg-blue.mt-3.p-3.d-flex.align-items-center.justify-content-center > div {
+        width: 100% !important;
+    }
+
+    #FENAJU > div > div:nth-child(2) {
+        align-self: center;
+    }
+}
